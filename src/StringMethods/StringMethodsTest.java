@@ -35,14 +35,14 @@ class StringMethodsTest {
 		assertEquals(45, StringMethods.numeralSum("x1x2x3x4x5x6x7x8x9x"));
 	}
 
-	@Test
-	void testSubstringCount() {
-		assertEquals(3, StringMethods.substringCount("subsubsub", "sub"));
-		assertEquals(2, StringMethods.substringCount("s ubsubsu bsubs ub", "sub"));
-		assertEquals(3, StringMethods.substringCount("Here I'm counting spaces"," "));
-		assertEquals(0, StringMethods.substringCount("There shoudn't be matches here", "tuna"));
-	}
-	
+	//@Test
+//	void testSubstringCount() {
+//		assertEquals(3, StringMethods.substringCount("subsubsub", "sub"));
+//		assertEquals(2, StringMethods.substringCount("s ubsubsu bsubs ub", "sub"));
+//		assertEquals(3, StringMethods.substringCount("Here I'm counting spaces"," "));
+//		assertEquals(0, StringMethods.substringCount("There shoudn't be matches here", "tuna"));
+//	}
+//	
 	@Test
 	void testEncrypt() {
 		assertEquals("KwYPDww=", StringMethods.encrypt("Hello", 'c'));
